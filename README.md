@@ -1,7 +1,8 @@
-## Simple ecommerce checkout using microservice architecture and Golang
+## Simple ecommerce checkout using microservice architecture, Golang, RabbitMQ and Docker
 &nbsp;
 
 ### How to run
+Initialize docker and run "docker-compose up -d" in project root directory
 At each folder there is a go file. Just enter in each folder and run "go run filename.go"
 &nbsp;
 
@@ -10,8 +11,8 @@ At checkout you just need to fill de Credit Card Number (Número), Cupom and cli
 - **valid cupom** = *abc* (valid status - invalid otherwise)
 
 &nbsp;
-### How to test retrial strategy
-- stop the payment or coupon microservice
+### How to test
+- stop the coupon microservice
 - try a purchase
-- watch retrials in terminal 
-- restart the service before 5 retrials and the process will be concluded
+- watch queue retrials in payment microservice terminal 
+- restart the coupon microservice and the process will be concluded
