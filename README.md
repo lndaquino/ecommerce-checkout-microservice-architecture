@@ -10,6 +10,8 @@ At checkout you just need to fill de Credit Card Number (Número), Cupom and cli
 - **valid credit card number** = *1* (approved status - declined otherwise)
 - **valid cupom** = *abc* (valid status - invalid otherwise)
 
+ps: you need to create queues, exchanges and bind then in RabbitMQ admin. Also you need to configure the Dead Letter Exchange politics.
+
 &nbsp;
 ### How to test
 - stop the coupon microservice
