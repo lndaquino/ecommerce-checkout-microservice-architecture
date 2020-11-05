@@ -9,7 +9,7 @@ At each folder there is a go file. Just enter in each folder and run "go run fil
 At checkout you just need to fill de Credit Card Number (Número), Cupom and click Comprar button to purchase
 - **valid credit card number** = *1* (approved status - declined otherwise)
 - **valid cupom** = *abc* (valid status - invalid otherwise)
-
+&nbsp;
 ps: you need to create queues, exchanges and bind then in RabbitMQ admin. Also you need to configure the Dead Letter Exchange politics.
 
 &nbsp;
