@@ -2,8 +2,8 @@
 &nbsp;
 
 ### How to run
-Initialize docker and run "docker-compose up -d" in project root directory
-At each folder there is a go file. Just enter in each folder and run "go run filename.go"
+Initialize docker and run "docker-compose up -d" in project root directory.
+At each folder there is a go file. Just enter in each folder and run "go run filename.go".
 &nbsp;
 
 At checkout you just need to fill de Credit Card Number (Número), Cupom and click Comprar button to purchase
